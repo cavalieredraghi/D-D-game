@@ -13,9 +13,8 @@ public class It_Starts {
 		System.out.println("Welcome to Drixtel's Might(beta):");
 		System.out.println("In the is (beta) Create Your Own Adventure, you will have not have as many options avaible to you per the usual type of game.");
 		System.out.println("Note that at the end of a description in the story. You will be presented with choices make sure to correctly type the choices presented. ");
-		Scanner sc = new Scanner (System.in);
 		System.out.println("Do you understand? Yes/No:");
-		String str = sc.nextLine();
+		String str = inputInfo.nextLine();
 			switch (str){
 				case "Yes" : str = "Good you are ready to go!";
 					break;
@@ -23,7 +22,7 @@ public class It_Starts {
 					break;
 			}
 			System.out.println(str);
-			sc.close();
+
 			
 		System.out.println("Now to set the stage:");
 		System.out.println("Your journey has taken you far and wide. Your experience had given you");
@@ -35,8 +34,18 @@ public class It_Starts {
 		System.out.println("jewel of the Azure Desert. You travel from the city known as Crossroads.");
 		System.out.println("Your journey West takes several days as the air grows drier and drier. ");
 		System.out.println("Till eventually you come across a ravine that looks like a keen place for ");
-		System.out.println("ambush.");
-		System.out.println("");
+		System.out.println("an ambush.");
+		
+		System.out.println("Do you go down the ravine or try and find a way around: Ravine/Explore");
+		String fc = inputInfo.nextLine();
+			switch(fc){
+				case "Ravine" : fc = "You venture down the Ravine.";
+					break;
+				case "Explore" : fc = "You explore for the next few hours around the ravine and ways to navigate some craig like rock out crops till you conclude you must travel down the Ravine.";
+					break;
+						}
+		System.out.println(fc);
+		
 	}
 
 }
