@@ -1,14 +1,13 @@
-package Quest_1;
+package Main;
 
 import java.util.Scanner;
 
-public class It_Starts {
+public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner inputInfo = new Scanner (System.in);
-		String yes="yes";
-		String no="No";
+
 		
 		System.out.println("Welcome to Drixtel's Might(beta):");
 		System.out.println("In the is (beta) Create Your Own Adventure, you will have not have as many options avaible to you per the usual type of game.");
@@ -22,7 +21,7 @@ public class It_Starts {
 					break;
 			}
 			System.out.println(str);
-
+			
 			
 		System.out.println("Now to set the stage:");
 		System.out.println("Your journey has taken you far and wide. Your experience had given you");
