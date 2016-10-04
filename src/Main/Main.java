@@ -1,11 +1,16 @@
 package Main;
 
 import java.util.Scanner;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Dice d20 = new Dice();
+		
+		d20.getd20();
+		
 		Scanner inputInfo = new Scanner (System.in);
 
 		
