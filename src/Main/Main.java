@@ -57,6 +57,8 @@ public class Main {
 		System.out.println("Thank you for playing that initial version of the Drixtel's Might game.");
 		System.out.println(" feel free to play around now with a dice roller program, which will hopfully be implemented later into the game.");
 		
+		// test for some of the dice integrations
+		
 		while (die != -1) {
 			System.out.println("100) for 100 sided die");
 			System.out.println("20) for 20 sided die");
@@ -88,6 +90,8 @@ public class Main {
 			}
 			if (die == 4){
 				d.getd4();
+			}else{
+				System.out. println ( "Error please try again.");
 			}
 		}
 
